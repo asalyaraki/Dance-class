@@ -6,7 +6,7 @@
 
 ![dance1](https://github.com/asalyaraki/Dance-class/assets/155806762/04ffbf18-8a4a-43fc-80aa-cb04c6ce51c1)
 
-![view final](https://user-images.githubusercontent.com/109727844/204102930-fac80657-4d16-4816-b476-a88e984abefe.jpg)
+![dance2](https://github.com/asalyaraki/Dance-class/assets/155806762/61f78ae7-4460-40f9-a5ea-54bb1935c61f)
 
 - [Demo Project](https://asalyaraki.github.io/Dance-class/)
 
