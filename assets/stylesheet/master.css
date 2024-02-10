@@ -1,0 +1,1435 @@
+main > .row {
+  min-height: calc(100vh + 50px);
+  position: relative;
+}
+main > .row > span {
+  width: 100%;
+  min-height: 100vh;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  box-shadow: inset 1000px 1000px rgba(0, 0, 0, 0.63);
+  animation-duration: 15s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+main > .row > span > div {
+  width: 100%;
+  height: 50%;
+  z-index: 1;
+  position: absolute;
+  top: 150px;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  z-index: 1;
+}
+main > .row > span > div > h1 {
+  color: white;
+  font-size: 40px;
+  z-index: 1;
+}
+main > .row > span > div > h3 {
+  color: white;
+  font-size: 25px;
+}
+main > .row > span > div > div {
+  width: 100%;
+  height: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+main > .row > span > div > div > div {
+  width: 250px;
+  height: 60px;
+  border-radius: 5px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  z-index: 2;
+}
+main > .row > span > div > div > div > a {
+  font-size: 18px;
+  transition: 0.4s;
+  text-transform: capitalize;
+  z-index: 1;
+}
+main > .row > span > div > div > div:hover {
+  background-color: rgb(22, 22, 22);
+}
+main > .row > span > div > div > div:hover > a {
+  color: white;
+}
+main > .row > span:nth-of-type(1) {
+  background-image: url(../img/banner-1-scaled.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation-name: bg1;
+}
+main > .row > span:nth-of-type(2) {
+  background-image: url(../img/banner-2-scaled.jpg);
+  background-size: cover;
+  animation-name: bg2;
+}
+main > .row > span:nth-of-type(3) {
+  background-image: url(../img/hero-1-scaled.jpg);
+  background-size: cover;
+  animation-name: bg3;
+}
+main > .row > div {
+  width: 100%;
+  height: 50px;
+}
+main > .row > div > .row {
+  height: 100%;
+  justify-content: space-between;
+  background-color: black;
+}
+main > .row > div > .row > nav {
+  height: 100%;
+  background-color: rgb(0, 0, 0);
+}
+main > .row > div > .row > nav:first-of-type {
+  width: 60%;
+}
+main > .row > div > .row > nav:first-of-type > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+main > .row > div > .row > nav:first-of-type > ul > li {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 5px;
+}
+main > .row > div > .row > nav:first-of-type > ul > li > img {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border-radius: 5px;
+}
+main > .row > div > .row > nav:first-of-type > ul > li > a {
+  font-size: 11px;
+  padding: 0 5px;
+  color: white;
+  transition: 0.4s;
+}
+main > .row > div > .row > nav:first-of-type > ul > li > a:hover {
+  color: rgb(75, 75, 75);
+}
+main > .row > div > .row > nav:first-of-type > ul > li:nth-of-type(2) > a {
+  font-size: 17px;
+}
+main > .row > div > .row > nav:first-of-type > ul > li:nth-of-type(3) > a {
+  font-size: 12px;
+}
+main > .row > div > .row > nav:last-of-type {
+  width: 15%;
+}
+main > .row > div > .row > nav:last-of-type > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+main > .row > div > .row > nav:last-of-type > ul > li {
+  width: 20%;
+  height: 100%;
+  position: relative;
+  margin: 0 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > div > .row > nav:last-of-type > ul > li:hover > div {
+  opacity: 1;
+  visibility: visible;
+}
+main > .row > div > .row > nav:last-of-type > ul > li > i {
+  display: flex;
+  transform: scale(2);
+  color: white;
+}
+main > .row > div > .row > nav:last-of-type > ul > li > div {
+  width: 70px;
+  height: 15px;
+  background-color: rgba(37, 37, 37, 0.945);
+  position: absolute;
+  left: -40%;
+  top: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  opacity: 0;
+  visibility: hidden;
+  transition: 0.4s;
+  z-index: 1;
+}
+main > .row > div > .row > nav:last-of-type > ul > li > div > h5 {
+  color: white;
+  font-size: 11px;
+}
+main > .row > .row {
+  height: 90px;
+  z-index: 1;
+  position: absolute;
+  top: 50px;
+  left: 0;
+}
+main > .row > .row > div {
+  width: 100%;
+  height: 90px;
+  display: flex;
+}
+main > .row > .row > div > figure {
+  width: 25%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > .row > div > nav {
+  width: 55%;
+  height: 100%;
+}
+main > .row > .row > div > nav > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+main > .row > .row > div > nav > ul > li {
+  width: 100%;
+  height: 30%;
+  margin: 0 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+main > .row > .row > div > nav > ul > li > a {
+  font-size: 18px;
+  text-transform: capitalize;
+  color: white;
+}
+main > .row > .row > div > nav > ul > li > div {
+  width: 70%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+}
+main > .row > .row > div > nav > ul > li > span {
+  width: 1%;
+  height: 2px;
+  background-color: white;
+  position: absolute;
+  bottom: 0;
+  left: 15%;
+  transform-origin: left;
+  opacity: 0;
+  transition: 0.4s;
+}
+main > .row > .row > div > nav > ul > li:hover > span {
+  transform: scaleX(80);
+  opacity: 1;
+}
+main > .row > .row > div > div {
+  width: 20%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main > .row > .row > div > div > div {
+  width: 160px;
+  height: 60px;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+main > .row > .row > div > div > div > a {
+  color: white;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+main > .row > .row > div > div > div:hover {
+  background-color: white;
+}
+main > .row > .row > div > div > div:hover > a {
+  color: black;
+}
+
+.para1 {
+  width: 100%;
+  height: 60px;
+}
+.para1 > .row {
+  height: 100%;
+}
+.para1 > .row > div {
+  width: 100%;
+  height: 100%;
+  background-color: rgb(174, 205, 218);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para1 > .row > div > p {
+  color: black;
+}
+.para1 > .row > div > a {
+  color: black;
+  padding-left: 2px;
+}
+.para1 > .row > div > a:hover {
+  text-decoration: underline;
+  color: blue;
+}
+
+.para2 {
+  width: 100%;
+  height: 100vh;
+}
+.para2 > .row {
+  height: 100%;
+  align-items: center;
+}
+.para2 > .row > div {
+  width: 100%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+}
+.para2 > .row > div > div {
+  margin: 0 30px;
+  position: relative;
+  transition: 0.4s;
+}
+.para2 > .row > div > div:hover {
+  transform: scale(1.05);
+}
+.para2 > .row > div > div > figure {
+  width: 100%;
+  height: 100%;
+}
+.para2 > .row > div > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.para2 > .row > div > div > div {
+  width: 90%;
+  height: 60%;
+  background-color: white;
+  position: absolute;
+  left: 5%;
+  top: 50%;
+}
+.para2 > .row > div > div > div > hgroup {
+  width: 100%;
+  height: 30%;
+  margin-top: 60px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.para2 > .row > div > div > div > hgroup > h2 {
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+.para2 > .row > div > div > div > hgroup > h2:hover {
+  color: blue;
+}
+.para2 > .row > div > div > div > div {
+  width: 100%;
+  height: 20%;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para2 > .row > div > div > div > div > h5 {
+  font-size: 18px;
+  text-transform: capitalize;
+}
+.para2 > .row > div > div > div > div:last-of-type {
+  margin-top: 0;
+  background-color: black;
+}
+.para2 > .row > div > div > div > div:last-of-type > a {
+  color: white;
+  text-transform: capitalize;
+}
+
+.para3 {
+  width: 100%;
+  height: 100vh;
+}
+.para3 > .row {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.para3 > .row > div {
+  width: 90%;
+  height: 90%;
+}
+.para3 > .row > div > .row {
+  height: 100%;
+}
+.para3 > .row > div > .row > div {
+  height: 100%;
+}
+.para3 > .row > div > .row > div:first-of-type {
+  width: 55%;
+  background-color: rgb(179, 190, 186);
+}
+.para3 > .row > div > .row > div:first-of-type > .row {
+  height: 100%;
+  position: relative;
+}
+.para3 > .row > div > .row > div:first-of-type > .row > div {
+  width: 100%;
+  display: flex;
+}
+.para3 > .row > div > .row > div:first-of-type > .row > div:nth-of-type(1) {
+  height: 20%;
+  margin-top: 100px;
+}
+.para3 > .row > div > .row > div:first-of-type > .row > div:nth-of-type(1) > h3 {
+  font-size: 35px;
+  padding: 0 70px;
+}
+.para3 > .row > div > .row > div:first-of-type > .row > div:nth-of-type(2) {
+  height: 20%;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+}
+.para3 > .row > div > .row > div:first-of-type > .row > div:nth-of-type(2) > p {
+  font-size: 20px;
+  padding: 0 70px;
+}
+.para3 > .row > div > .row > div:first-of-type > .row > div:nth-of-type(3) {
+  width: 250px;
+  height: 50px;
+  position: absolute;
+  left: 65px;
+  bottom: 150px;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+.para3 > .row > div > .row > div:first-of-type > .row > div:nth-of-type(3):hover {
+  background-color: black;
+}
+.para3 > .row > div > .row > div:first-of-type > .row > div:nth-of-type(3):hover > a {
+  color: white;
+}
+.para3 > .row > div > .row > div:first-of-type > .row > div:nth-of-type(3) > a {
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+.para3 > .row > div > .row > div:last-of-type {
+  position: relative;
+  width: 45%;
+}
+.para3 > .row > div > .row > div:last-of-type > figure {
+  width: 100%;
+  height: 100%;
+}
+.para3 > .row > div > .row > div:last-of-type > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.para3 > .row > div > .row > div:last-of-type > div {
+  width: 150px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+.para3 > .row > div > .row > div:last-of-type > div:hover {
+  background-color: black;
+}
+.para3 > .row > div > .row > div:last-of-type > div:hover > a {
+  color: white;
+}
+.para3 > .row > div > .row > div:last-of-type > div > a {
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+.para3 > .row > div > .row > div:last-of-type > div > a {
+  text-transform: capitalize;
+}
+
+.para4 {
+  width: 100%;
+  height: 100vh;
+}
+.para4 > .row {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.para4 > .row > div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 29, 29, 0.281);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.para4 > .row > div > .row {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.para4 > .row > div > .row > div {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.para4 > .row > div > .row > div > hgroup {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.para4 > .row > div > .row > div > hgroup > h2 {
+  color: white;
+  font-size: 70px;
+}
+.para4 > .row > div > .row > div > hgroup > p {
+  color: white;
+  font-size: 25px;
+}
+.para4 > .row > div > .row > div > div {
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.para4 > .row > div > .row > div > div:hover {
+  background-color: black;
+}
+.para4 > .row > div > .row > div > div:hover > a {
+  color: white;
+}
+.para4 > .row > div > .row > div > div > a {
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+
+.para5 {
+  width: 100%;
+  height: 100vh;
+}
+.para5 > .row {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.para5 > .row > div {
+  width: 80%;
+  height: 70%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+.para5 > .row > div > div:nth-of-type(1) {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.para5 > .row > div > div:nth-of-type(1) > hgroup {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+.para5 > .row > div > div:nth-of-type(1) > hgroup > h2 {
+  font-size: 35px;
+}
+.para5 > .row > div > div:nth-of-type(1) > hgroup > p {
+  font-size: 20px;
+}
+.para5 > .row > div > div:nth-of-type(1) > div {
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 5px;
+  transition: 0.4s;
+}
+.para5 > .row > div > div:nth-of-type(1) > div:hover {
+  background-color: black;
+}
+.para5 > .row > div > div:nth-of-type(1) > div:hover > a {
+  color: white;
+}
+.para5 > .row > div > div:nth-of-type(1) > div > a {
+  text-transform: capitalize;
+  font-size: 18px;
+  transition: 0.4s;
+}
+.para5 > .row > div > div:nth-of-type(2), .para5 > .row > div > div:nth-of-type(3), .para5 > .row > div > div:nth-of-type(4) {
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  transition: 0.4s;
+}
+.para5 > .row > div > div:nth-of-type(2):hover, .para5 > .row > div > div:nth-of-type(3):hover, .para5 > .row > div > div:nth-of-type(4):hover {
+  transform: scale(1.05);
+}
+.para5 > .row > div > div:nth-of-type(2) > .row, .para5 > .row > div > div:nth-of-type(3) > .row, .para5 > .row > div > div:nth-of-type(4) > .row {
+  width: 85%;
+  height: 45%;
+  background-color: white;
+  position: absolute;
+  left: 7.5%;
+  bottom: 5%;
+}
+.para5 > .row > div > div:nth-of-type(2) > .row > hgroup, .para5 > .row > div > div:nth-of-type(3) > .row > hgroup, .para5 > .row > div > div:nth-of-type(4) > .row > hgroup {
+  width: 100%;
+  height: 60%;
+  background-color: white;
+  padding-left: 30px;
+  margin-top: 20px;
+}
+.para5 > .row > div > div:nth-of-type(2) > .row > hgroup > *, .para5 > .row > div > div:nth-of-type(3) > .row > hgroup > *, .para5 > .row > div > div:nth-of-type(4) > .row > hgroup > * {
+  line-height: 50px;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+.para5 > .row > div > div:nth-of-type(2) > .row > hgroup > *:hover, .para5 > .row > div > div:nth-of-type(3) > .row > hgroup > *:hover, .para5 > .row > div > div:nth-of-type(4) > .row > hgroup > *:hover {
+  color: blue;
+}
+.para5 > .row > div > div:nth-of-type(2) > .row > div, .para5 > .row > div > div:nth-of-type(3) > .row > div, .para5 > .row > div > div:nth-of-type(4) > .row > div {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para5 > .row > div > div:nth-of-type(2) > .row > div > i, .para5 > .row > div > div:nth-of-type(3) > .row > div > i, .para5 > .row > div > div:nth-of-type(4) > .row > div > i {
+  padding: 0 15px;
+}
+.para5 > .row > div > div:nth-of-type(2) {
+  background-image: url(../img/instructor-3.jpg);
+}
+.para5 > .row > div > div:nth-of-type(3) {
+  background-image: url(../img/instructor-2.jpg);
+}
+.para5 > .row > div > div:nth-of-type(4) {
+  background-image: url(../img/instructor-1.jpg);
+}
+
+.para6 {
+  width: 100%;
+  height: 100vh;
+}
+.para6 > .row {
+  height: 100%;
+}
+.para6 > .row > div {
+  width: 100%;
+}
+.para6 > .row > div:first-of-type {
+  height: 30%;
+}
+.para6 > .row > div:first-of-type > .row {
+  height: 100%;
+}
+.para6 > .row > div:first-of-type > .row > hgroup {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.para6 > .row > div:first-of-type > .row > hgroup > * {
+  text-align: center;
+}
+.para6 > .row > div:first-of-type > .row > hgroup > h2 {
+  font-size: 45px;
+  padding-top: 20px;
+}
+.para6 > .row > div:first-of-type > .row > hgroup > p {
+  font-size: 30px;
+}
+.para6 > .row > div:last-of-type {
+  height: 70%;
+}
+.para6 > .row > div:last-of-type > .row {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.para6 > .row > div:last-of-type > .row > div {
+  width: 90%;
+  height: 80%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr;
+  gap: 30px;
+}
+.para6 > .row > div:last-of-type > .row > div > div {
+  position: relative;
+  transition: 0.4s;
+}
+.para6 > .row > div:last-of-type > .row > div > div:hover {
+  transform: scale(1.05);
+}
+.para6 > .row > div:last-of-type > .row > div > div > figure {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.para6 > .row > div:last-of-type > .row > div > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.para6 > .row > div:last-of-type > .row > div > div > figure > figcaption {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  left: 30px;
+  bottom: 30px;
+}
+.para6 > .row > div:last-of-type > .row > div > div > div {
+  width: 100px;
+  height: 30px;
+  border: 1px solid white;
+  position: absolute;
+  left: 30px;
+  top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para6 > .row > div:last-of-type > .row > div > div > div > a {
+  color: white;
+  text-transform: capitalize;
+}
+
+.para7 {
+  width: 100%;
+  height: 100vh;
+}
+.para7 > .row {
+  height: 100%;
+  background-image: url(../img/banner-1-scaled.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  justify-content: center;
+  align-items: center;
+}
+.para7 > .row > div {
+  width: 95%;
+  height: 70%;
+}
+.para7 > .row > div > .row {
+  height: 100%;
+}
+.para7 > .row > div > .row > div {
+  height: 100%;
+  background-color: white;
+}
+.para7 > .row > div > .row > div:first-of-type {
+  width: 40%;
+  position: relative;
+}
+.para7 > .row > div > .row > div:first-of-type > hgroup {
+  width: 100%;
+  height: 60%;
+  background-color: white;
+  margin-top: 70px;
+}
+.para7 > .row > div > .row > div:first-of-type > hgroup > * {
+  padding-left: 70px;
+}
+.para7 > .row > div > .row > div:first-of-type > hgroup > h2 {
+  font-size: 45px;
+  padding-top: 20px;
+}
+.para7 > .row > div > .row > div:first-of-type > hgroup > p {
+  font-size: 25px;
+}
+.para7 > .row > div > .row > div:first-of-type > figure {
+  margin-left: 50px;
+}
+.para7 > .row > div > .row > div:last-of-type {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.para7 > .row > div > .row > div:last-of-type > form {
+  width: 100%;
+  height: 50%;
+}
+.para7 > .row > div > .row > div:last-of-type > form > input {
+  width: 100%;
+  height: 70px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  outline: none;
+  border-bottom: 2px solid rgb(143, 141, 141);
+}
+.para7 > .row > div > .row > div:last-of-type > form > input:hover {
+  border-bottom: 2px solid rgb(82, 81, 81);
+}
+.para7 > .row > div > .row > div:last-of-type > form > input::-moz-placeholder {
+  padding-left: 10px;
+  font-size: 20px;
+}
+.para7 > .row > div > .row > div:last-of-type > form > input::placeholder {
+  padding-left: 10px;
+  font-size: 20px;
+}
+.para7 > .row > div > .row > div:last-of-type > form > input:first-of-type {
+  margin-top: 30px;
+}
+.para7 > .row > div > .row > div:last-of-type > form > input:last-of-type {
+  margin-top: 10px;
+}
+.para7 > .row > div > .row > div:last-of-type > div {
+  width: 270px;
+  height: 50px;
+  border: 1px solid black;
+  position: absolute;
+  left: 10px;
+  bottom: 50px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.para7 > .row > div > .row > div:last-of-type > div:hover {
+  background-color: black;
+}
+.para7 > .row > div > .row > div:last-of-type > div:hover > a {
+  color: white;
+  transition: 0.4s;
+}
+.para7 > .row > div > .row > div:last-of-type > div > a {
+  text-transform: capitalize;
+}
+
+.para8 {
+  width: 100%;
+  height: 100vh;
+}
+.para8 > .row {
+  height: 100%;
+}
+.para8 > .row > div {
+  width: 100%;
+}
+.para8 > .row > div:first-of-type {
+  height: 30%;
+  display: flex;
+  align-items: center;
+}
+.para8 > .row > div:first-of-type > hgroup {
+  width: 100%;
+  height: 50%;
+}
+.para8 > .row > div:first-of-type > hgroup > * {
+  text-align: center;
+}
+.para8 > .row > div:first-of-type > hgroup > h2 {
+  font-size: 40px;
+}
+.para8 > .row > div:first-of-type > hgroup > P {
+  padding-top: 15px;
+}
+.para8 > .row > div:last-of-type {
+  height: 70%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.para8 > .row > div:last-of-type > div {
+  margin: 10px;
+  position: relative;
+}
+.para8 > .row > div:last-of-type > div > figure {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+.para8 > .row > div:last-of-type > div > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.para9 {
+  width: 100%;
+  height: 100vh;
+}
+.para9 > .row {
+  height: 100%;
+  background-image: url(../img/banner-2-scaled.jpg);
+  background-size: cover;
+  box-shadow: inset 1000px 1000px rgba(0, 0, 0, 0.651);
+  background-attachment: fixed;
+}
+.para9 > .row > div {
+  height: 100%;
+}
+.para9 > .row > div:first-of-type {
+  width: 30%;
+}
+.para9 > .row > div:first-of-type > hgroup {
+  width: 100%;
+  height: 30%;
+}
+.para9 > .row > div:first-of-type > hgroup > * {
+  color: white;
+  text-transform: capitalize;
+  padding-left: 50px;
+}
+.para9 > .row > div:first-of-type > hgroup > h2 {
+  font-size: 35px;
+  padding-top: 40px;
+}
+.para9 > .row > div:first-of-type > hgroup > p {
+  font-size: 20px;
+  padding-top: 10px;
+}
+.para9 > .row > div:first-of-type > div {
+  width: 200px;
+  height: 40px;
+  border: 1px solid white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 45px;
+  transition: 0.4s;
+}
+.para9 > .row > div:first-of-type > div:hover {
+  background-color: white;
+}
+.para9 > .row > div:first-of-type > div:hover > a {
+  color: black;
+}
+.para9 > .row > div:first-of-type > div > a {
+  color: white;
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+.para9 > .row > div:last-of-type {
+  width: 70%;
+}
+.para9 > .row > div:last-of-type > .row {
+  height: 100%;
+}
+.para9 > .row > div:last-of-type > .row > div {
+  width: 100%;
+  height: 25%;
+  border-bottom: 3px solid rgb(124, 115, 115);
+  display: flex;
+  align-items: center;
+}
+.para9 > .row > div:last-of-type > .row > div:last-of-type {
+  border-bottom: none;
+}
+.para9 > .row > div:last-of-type > .row > div > * {
+  height: 100%;
+}
+.para9 > .row > div:last-of-type > .row > div > a {
+  width: 20%;
+  display: flex;
+  padding-left: 20px;
+  align-items: center;
+  font-size: 20px;
+  color: white;
+}
+.para9 > .row > div:last-of-type > .row > div > hgroup {
+  width: 50%;
+}
+.para9 > .row > div:last-of-type > .row > div > hgroup > * {
+  color: white;
+  padding-left: 90px;
+}
+.para9 > .row > div:last-of-type > .row > div > hgroup > h2 {
+  font-size: 30px;
+  padding-top: 45px;
+}
+.para9 > .row > div:last-of-type > .row > div > hgroup > h4 {
+  padding-top: 10px;
+}
+.para9 > .row > div:last-of-type > .row > div div {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.para9 > .row > div:last-of-type > .row > div div > div {
+  width: 150px;
+  height: 50px;
+  border: 1px solid white;
+  background-color: white;
+}
+.para9 > .row > div:last-of-type > .row > div div > div > a {
+  text-transform: capitalize;
+}
+
+.para10 {
+  width: 100%;
+  height: 100vh;
+}
+.para10 > .row {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.para10 > .row > div {
+  width: 95%;
+  height: 85%;
+}
+.para10 > .row > div > .row {
+  height: 100%;
+}
+.para10 > .row > div > .row > div {
+  height: 100%;
+}
+.para10 > .row > div > .row > div:first-of-type {
+  width: 45%;
+  background-image: url(../img/info-2.jpg);
+  background-size: cover;
+}
+.para10 > .row > div > .row > div:last-of-type {
+  width: 55%;
+}
+.para10 > .row > div > .row > div:last-of-type > hgroup {
+  width: 100%;
+  height: 50%;
+  margin-top: 40px;
+}
+.para10 > .row > div > .row > div:last-of-type > hgroup > * {
+  padding-left: 60px;
+}
+.para10 > .row > div > .row > div:last-of-type > hgroup > h2 {
+  font-size: 50px;
+}
+.para10 > .row > div > .row > div:last-of-type > hgroup > P {
+  font-size: 20px;
+}
+.para10 > .row > div > .row > div:last-of-type > div {
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 20px;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+.para10 > .row > div > .row > div:last-of-type > div:hover {
+  background-color: black;
+}
+.para10 > .row > div > .row > div:last-of-type > div:hover > a {
+  color: white;
+}
+.para10 > .row > div > .row > div:last-of-type > div > a {
+  text-transform: capitalize;
+  font-size: 18px;
+  transition: 0.4s;
+}
+
+.para11 {
+  width: 100%;
+  height: 100vh;
+}
+.para11 > .row {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.para11 > .row > div {
+  width: 95%;
+  height: 85%;
+}
+.para11 > .row > div > .row {
+  height: 100%;
+}
+.para11 > .row > div > .row > div {
+  height: 100%;
+}
+.para11 > .row > div > .row > div:first-of-type {
+  width: 55%;
+}
+.para11 > .row > div > .row > div:first-of-type > hgroup {
+  width: 100%;
+  height: 50%;
+  margin-top: 40px;
+}
+.para11 > .row > div > .row > div:first-of-type > hgroup > * {
+  padding-left: 60px;
+}
+.para11 > .row > div > .row > div:first-of-type > hgroup > h2 {
+  font-size: 50px;
+}
+.para11 > .row > div > .row > div:first-of-type > hgroup > P {
+  font-size: 20px;
+}
+.para11 > .row > div > .row > div:first-of-type > div {
+  width: 200px;
+  height: 50px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 50px;
+  margin-top: 20px;
+  transition: 0.4s;
+  border-radius: 5px;
+}
+.para11 > .row > div > .row > div:first-of-type > div:hover {
+  background-color: black;
+}
+.para11 > .row > div > .row > div:first-of-type > div:hover > a {
+  color: white;
+}
+.para11 > .row > div > .row > div:first-of-type > div > a {
+  text-transform: capitalize;
+  font-size: 18px;
+  transition: 0.4s;
+}
+.para11 > .row > div > .row > div:last-of-type {
+  width: 45%;
+  background-image: url(../img/info-3.jpg);
+  background-size: cover;
+}
+
+.para12 {
+  width: 100%;
+  height: 100vh;
+}
+.para12 > .row {
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.para12 > .row > video {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.para12 > .row > div {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(29, 29, 29, 0.281);
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.para12 > .row > div > .row {
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.para12 > .row > div > .row > div {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.para12 > .row > div > .row > div > hgroup {
+  width: 100%;
+  height: 40%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.para12 > .row > div > .row > div > hgroup > h2 {
+  color: white;
+  font-size: 70px;
+}
+.para12 > .row > div > .row > div > hgroup > p {
+  color: white;
+  font-size: 25px;
+}
+.para12 > .row > div > .row > div > div {
+  width: 250px;
+  height: 50px;
+  background-color: white;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+.para12 > .row > div > .row > div > div:hover {
+  background-color: black;
+}
+.para12 > .row > div > .row > div > div:hover > a {
+  color: white;
+}
+.para12 > .row > div > .row > div > div > a {
+  text-transform: capitalize;
+  transition: 0.4s;
+}
+
+footer {
+  width: 100%;
+  height: 70vh;
+}
+footer > .row {
+  height: 100%;
+}
+footer > .row > div {
+  height: 100%;
+}
+footer > .row > div:first-of-type {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer > .row > div:first-of-type .circle {
+  width: 400px;
+  height: 400px;
+  border-radius: 50%;
+  position: relative;
+  background-color: rgb(58, 58, 58);
+  transition: 0.4s;
+}
+footer > .row > div:first-of-type .circle:hover {
+  box-shadow: 0 0 5px 15px rgba(0, 0, 0, 0.219);
+}
+footer > .row > div:first-of-type .circle > div {
+  position: absolute;
+  border-radius: 50%;
+}
+footer > .row > div:first-of-type .circle > div:first-of-type {
+  width: 320px;
+  height: 320px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background-color: white;
+}
+footer > .row > div:first-of-type .circle > div:last-of-type {
+  width: 260px;
+  height: 260px;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+footer > .row > div:first-of-type .circle > div:last-of-type::after {
+  content: "";
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.349);
+  z-index: 1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 50%;
+}
+footer > .row > div:first-of-type .circle > div:last-of-type > figure {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+footer > .row > div:first-of-type .circle > div:last-of-type > figure > img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  transform: scale(1.1);
+  position: absolute;
+  top: 10px;
+  left: 0;
+}
+footer > .row > div:last-of-type {
+  width: 60%;
+}
+footer > .row > div:last-of-type > h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-top: 150px;
+  padding-left: 10px;
+  -webkit-background-clip: text;
+          background-clip: text;
+  background-clip: -webkit-text;
+  color: transparent;
+  background-image: linear-gradient(120deg, rgb(19, 19, 19) 40%, rgb(65, 65, 65), rgb(99, 99, 99));
+  transition: 1s;
+}
+footer > .row > div:last-of-type > h2:hover {
+  background-position: 750px;
+}
+footer > .row > div:last-of-type > nav {
+  width: 300px;
+  height: 50px;
+  margin-top: 20px;
+}
+footer > .row > div:last-of-type > nav > ul {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+footer > .row > div:last-of-type > nav > ul > li {
+  list-style-type: none;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 1px solid black;
+  margin: 0 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.4s;
+}
+footer > .row > div:last-of-type > nav > ul > li:hover {
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.301);
+}
+footer > .row > div:last-of-type > nav > ul > li > a {
+  font-size: 25px;
+  color: black;
+  text-decoration: none;
+}
+footer > .row > div:last-of-type > div {
+  width: 100%;
+  height: 10%;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+}
+footer > .row > div:last-of-type > div > a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+  transition: 0.4s;
+}
+footer > .row > div:last-of-type > div > a:hover {
+  letter-spacing: 2px;
+}
+
+@keyframes bg1 {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  36% {
+    opacity: 0;
+  }
+  94% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes bg2 {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 0;
+  }
+  36% {
+    opacity: 1;
+  }
+  63% {
+    opacity: 1;
+  }
+  69% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+@keyframes bg3 {
+  0% {
+    opacity: 0;
+  }
+  63% {
+    opacity: 0;
+  }
+  69% {
+    opacity: 1;
+  }
+  94% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}/*# sourceMappingURL=master.css.map */
